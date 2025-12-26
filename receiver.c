@@ -1,28 +1,18 @@
 #include <stdio.h>
 
-int readVehicle(char *road, int *count) {
-    FILE *fp = fopen("vehicles.data", "r");
-    if (!fp) return 0;
+int main() {
+    FILE *fp = fopen("vehicle.data", "r");
+    if (!fp) {
+        printf("vehicle.data not found\n");
+        return 1;
+    }
 
-    int found = 0;
-    char r;
-    int c;
-
-    FILE *temp = fopen("temp.data", "w");
-
-    while (fscanf(fp, "%c %d\n", &r, &c) != EOF) {
-        if (r == road[0] && !found) {
-            *count = c;
-            found = 1;
-        } else {
-            fprintf(temp, "%c %d\n", r, c);
-        }
+    printf("Current Vehicles in File:\n");
+    int road, lane, id;
+    while (fscanf(fp, "%d %d %d", &road, &lane, &id) == 3) {
+        printf("Road %d, Lane %d -> Vehicle %d\n", road, lane, id);
     }
 
     fclose(fp);
-    fclose(temp);
-    remove("vehicles.data");
-    rename("temp.data", "vehicles.data");
-
-    return found;
+    return 0;
 }
