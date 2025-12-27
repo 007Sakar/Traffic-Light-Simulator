@@ -35,7 +35,7 @@
 
 ## Features
 
-- Red, Yellow, and Green traffic signals
+- Red and Green traffic signals
 - Multi-lane traffic simulation
 - Priority given to the second lane
 - Time-based signal switching
@@ -119,4 +119,4 @@ Each program must be run in a separate terminal.
 
 ---
 
-**Last Updated:** 2025
+**Last Updated:** 2025/12/27
