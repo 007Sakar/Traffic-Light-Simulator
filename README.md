@@ -84,8 +84,6 @@ Each program must be run in a separate terminal.
 ## Project Structure
 
 - src/ – Source code files
-- include/ – Header files
-- assets/ – Images and resources
 - README.md – Project overview
 - Documentation/ – Detailed report
 
@@ -104,7 +102,7 @@ Each program must be run in a separate terminal.
 
 ---
 ## Demo Video
-- [Watch Demo Video](Testing%20code.mp4)
+- ![Image](https://github.com/user-attachments/assets/d5d2f853-3cf8-47df-a742-799ff1050fad)
 ---
 
 ## Author
