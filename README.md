@@ -102,7 +102,7 @@ Each program must be run in a separate terminal.
 
 ---
 ## Demo Video
-- [![Image](https://github.com/user-attachments/assets/d5d2f853-3cf8-47df-a742-799ff1050fad)](https://github.com/user-attachments/assets/efd9c7e2-d5fc-47f0-84e4-e13d978b77c2)
+-https://github.com/user-attachments/assets/0d7a7cd1-0419-4325-828c-d63ddd41f1c7
 ---
 
 ## Author
